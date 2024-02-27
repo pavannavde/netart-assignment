@@ -1,0 +1,24 @@
+.middleSection{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    width:100vw;
+    align-items: center;
+    justify-content: center;
+    border-bottom:  1px solid red;
+    padding: 0px 30px ;
+}
+.middleSection>img{
+    width:80%;
+}
+.middleSection>p{
+    padding: 20px;
+}
+
+@media only screen and (max-width:600px) {
+
+  .middleSection{
+    font-size: 16px;
+  }  
+}

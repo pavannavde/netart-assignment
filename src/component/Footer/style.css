@@ -1,0 +1,36 @@
+.topDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.bottomDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width:100vw;
+    background-color: rgb(236, 48, 48);
+    padding: 30px 0px;
+    color: #fff;
+    font-size: 18px;
+}
+.bottomDiv>div{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.bottomDiv>div>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width:600px) {
+
+.bottomDiv{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+}

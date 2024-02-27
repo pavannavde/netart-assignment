@@ -1,0 +1,31 @@
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    width:100vw;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.leftDiv{
+    width:30%;
+}
+.leftDiv>img{
+    width:100%;
+    height: 100%;
+}
+.rightDiv{
+    width:70%;
+}
+.rightDiv>img{
+    width:100%;
+}
+
+@media only screen and (max-width:600px) {
+    
+.hero{
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+}
